@@ -165,12 +165,18 @@ footer{
     #showcase p{
         width: 550px;
     }
+    article h1{
+        font-size: 40px;
+    }
+    article p{
+        font-size: 18px;
+    }
     #article1 img{
-        margin-top: -25em;
+        margin-top: -20em;
     }
     #article2 img{
         width: 250px;
-        margin-top: -22em;
+        margin-top: -20em;
     }
 
     #startpoint {
@@ -201,7 +207,21 @@ footer{
 
     }
     
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 572px) {
     /* start of phone styles */
-    
+        body {
+            background-color: #8D41B0;
+            top: 0;
+            left: 0;
+             bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;   
+            opacity: 25%;
+            background-size: cover;
+        }
+        .background{
+            background: none;
+        }
+
     }
