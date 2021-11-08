@@ -1,8 +1,3 @@
-@media only screen and (max-width: 765px) { 
-    nav li{
-        display: inherit
-    }   
-}
 
 *{
     margin: 0;
@@ -175,7 +170,7 @@ footer{
     }
     #article2 img{
         width: 250px;
-        margin-top: -20em;
+        margin-top: -22em;
     }
 
     #startpoint {
@@ -187,7 +182,13 @@ footer{
     }
 
     .footer-nav ul{
-        margin: -3em 0 0 12em;
+        margin: -3em 0 0 9em;
+    }
+
+
+    .footer-nav a{
+        font-size: 15px;
+        padding: 0  10px;
     }
 
     .footer-nav img{
