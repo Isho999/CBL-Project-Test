@@ -55,6 +55,8 @@ header img{
 #showcase p{
     font-size: 120%;
     margin-left: 2.1em;
+    color: white;
+    text-align: left;
 }
 
 article{
@@ -62,24 +64,47 @@ article{
     padding: 0.5%;
 }
 
-article h1{
+#article1 h1{
     font-size: 52px;
     border-left: #8D41B0 5px solid;
     padding: 0.5%;
     color: #8D41B0;
 }
 
-article p{
+#article1 p{
     color: black;
     width: 50%;
     font-size: 20px;
     line-height: 30px;
+    text-align: left;
 }
 
 article img{
     float: right;
-    margin-top: -18em;
+    margin-top: -15em;
     margin-right: 2%;
+    padding: 20px;
+}
+#article2{
+    margin-top: 6em;
+    width: 95%;
+}
+#artice2 h1,p{
+    text-align: center;
+    color: black;
+}
+#article2 h1{
+    text-align: center;
+    font-size: 52px;
+    border-bottom: #8D41B0 5px solid;
+    padding: 0.5%;
+    color: #8D41B0;
+}
+
+#article2 p{
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .jl-img{
@@ -165,18 +190,21 @@ footer{
     #showcase p{
         width: 550px;
     }
-    article h1{
+    #article1 h1{
         font-size: 40px;
     }
-    article p{
+    #article2 p{
         font-size: 18px;
+    }
+    #article2 h1{
+        
     }
     #article1 img{
         margin-top: -20em;
     }
     #article2 img{
         width: 250px;
-        margin-top: -20em;
+        margin-top: -40em;
     }
 
     #startpoint {
