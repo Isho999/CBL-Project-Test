@@ -197,7 +197,7 @@ footer{
         text-align: justify;
     }
     #article2 {
-        width: 90%;
+        width: 88%;
     }
     #article2 p{
         font-size: 18px;
@@ -208,10 +208,6 @@ footer{
     }
     #article1 img{
         margin-top: -25em;
-    }
-    #article2 img{
-        width: 250px;
-        margin-top: -40em;
     }
 
     #startpoint {
