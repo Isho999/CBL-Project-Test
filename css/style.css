@@ -76,7 +76,7 @@ article{
     width: 50%;
     font-size: 20px;
     line-height: 30px;
-    text-align: left;
+    text-align: justify;
 }
 
 article img{
@@ -193,14 +193,21 @@ footer{
     #article1 h1{
         font-size: 40px;
     }
+    article p{
+        text-align: justify;
+    }
+    #article2 {
+        width: 90%;
+    }
     #article2 p{
         font-size: 18px;
+        text-align: justify;
     }
     #article2 h1{
-        
+        font-size: 40px;
     }
     #article1 img{
-        margin-top: -20em;
+        margin-top: -25em;
     }
     #article2 img{
         width: 250px;
